@@ -9,8 +9,9 @@
 
 # Node modules and dependency files
 /node_modules/
-/package-lock.json
-/yarn.lock
+**/node_modules/
+package-lock.json
+yarn.lock
 
 # Environment files
 /.env
@@ -26,3 +27,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Aliyunpan
+.aliyunpan/
+aliyunpan_command_history.txt
+aliyunpan_config.json

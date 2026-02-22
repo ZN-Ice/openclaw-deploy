@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__web-reader__webReader",
+      "Bash(node:*)",
+      "Bash(echo:*)",
+      "Bash(npm install:*)",
+      "Bash(/c/Users/zhang/aliyunpan/aliyunpan.exe)",
+      "Bash(./aliyunpan.exe:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)"
+    ]
+  }
+}
