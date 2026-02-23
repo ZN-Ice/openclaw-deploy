@@ -1,0 +1,19 @@
+{
+  "name": "moltbot-session-manager",
+  "version": "1.0.0",
+  "description": "Clear all Moltbot sessions via CLI commands",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "clear-moltbot-sessions": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "moltbot",
+    "session",
+    "cli"
+  ],
+  "license": "MIT"
+}
