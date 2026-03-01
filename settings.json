@@ -1,0 +1,30 @@
+{
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "glm": {
+        "baseUrl": "https://open.bigmodel.cn/api/coding/paas/v4",
+        "apiKey": "todo",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "GLM-5",
+            "name": "GLM 5"
+          },
+          {
+            "id": "GLM-4.7",
+            "name": "GLM 4.7"
+          },
+          {
+            "id": "GLM-4.6",
+            "name": "GLM 4.6"
+          },
+          {
+            "id": "GLM-4.5-air",
+            "name": "GLM 4.5 air"
+          }
+        ]
+      }
+    }
+  }
+}
