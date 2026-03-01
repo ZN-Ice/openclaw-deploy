@@ -26,5 +26,30 @@
         ]
       }
     }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "glm/GLM-4.7"
+      },
+      "imageModel": {
+        "primary": "alibaba-cloud/qwen3-vl-plus"
+      },
+      "models": {
+        "glm/GLM-4.7": {
+          "alias": "GLM-4.7"
+        },
+        "dashscope/qwen3.5-plus": {
+          "alias": "qwen3.5-plus"
+        },
+        "dashscope-us/qwen3-max-2025-09-23": {
+          "alias": "qwen3-max-2025-09-23"
+        }
+      },
+      "workspace": "/home/admin/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
   }
 }
